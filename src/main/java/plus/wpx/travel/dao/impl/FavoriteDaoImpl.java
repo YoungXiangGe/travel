@@ -10,7 +10,7 @@ import java.util.Date;
 
 
 /**
- * @author wpx
+ * @author wpx666
  */
 public class FavoriteDaoImpl implements FavoriteDao {
     JdbcTemplate template = new JdbcTemplate(JDBCUtils.getDataSource());
