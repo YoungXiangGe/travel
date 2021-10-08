@@ -9,6 +9,9 @@ import plus.wpx.travel.util.JDBCUtils;
 import java.util.Date;
 
 
+/**
+ * @author wpx666
+ */
 public class FavoriteDaoImpl implements FavoriteDao {
     JdbcTemplate template = new JdbcTemplate(JDBCUtils.getDataSource());
 
