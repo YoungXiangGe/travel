@@ -8,6 +8,9 @@ import plus.wpx.travel.util.JDBCUtils;
 
 import java.util.List;
 
+/**
+ * @author wpx
+ */
 public class CategoryDaoImpl implements CategoryDao {
     private JdbcTemplate jdbcTemplate = new JdbcTemplate(JDBCUtils.getDataSource());
 
